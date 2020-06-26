@@ -9,3 +9,6 @@ Petit exercice avec Javascript pour comprendre le principe des collisions et de 
 
 #### Bomberman
 Petit exercice avec Javascript pour comprendre le principe des collisions. 
+
+#### Plus ou Moins
+Petit exercice d'algorithme avec Javascript.
