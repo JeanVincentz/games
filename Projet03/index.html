@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercice Plus Ou Moins</title>
+  </head>
+  <body>
+    <form>
+          <div class="board">
+            <form>
+            <label for="number">number (1 à 100):</label>
+            <input type="text" id="tentative" number="number" required min="1" max="100" pattern="[A-Za-z]{3}">
+            <input type="submit" id="send" value="envoyer">
+            </form>
+            <p id="message"></p>
+            </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
